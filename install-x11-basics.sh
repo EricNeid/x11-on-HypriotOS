@@ -52,12 +52,12 @@ echo "...done"
 # --------------------------------------------------------------------
 echo ""
 echo " STEP 4: install pre-compiled fbturbo"
-FBTURBO_TAR_URL=https://github.com/hypriot/x11-on-HypriotOS/raw/master/fbturbo/fbturbo.tar.gz
-FBTURBO_TAR_TMPFILE=/tmp/fbturbo.tar.gz
-wget -O ${FBTURBO_TAR_TMPFILE} ${FBTURBO_TAR_URL}
-sudo tar xvf ${FBTURBO_TAR_TMPFILE} -C /
-rm -f ${FBTURBO_TAR_TMPFILE}
-echo "...done"
+#FBTURBO_TAR_URL=https://github.com/hypriot/x11-on-HypriotOS/raw/master/fbturbo/fbturbo.tar.gz
+#FBTURBO_TAR_TMPFILE=/tmp/fbturbo.tar.gz
+#wget -O ${FBTURBO_TAR_TMPFILE} ${FBTURBO_TAR_URL}
+#sudo tar xvf ${FBTURBO_TAR_TMPFILE} -C /
+#rm -f ${FBTURBO_TAR_TMPFILE}
+#echo "...done"
 
 
 # --------------------------------------------------------------------
