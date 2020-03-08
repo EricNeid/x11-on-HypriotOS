@@ -32,7 +32,7 @@ echo "...done"
 
 # --------------------------------------------------------------------
 echo ""
-echo " STEP 3: enable LightDM autologin for user=pirate"
+echo " STEP 3: enable LightDM autologin for user=ericn"
 LIGHTDM_CONF_FILE=/etc/lightdm/lightdm.conf
 if [ ! -f ${LIGHTDM_CONF_FILE}.sav ]; then
   # backup original file
@@ -40,7 +40,7 @@ if [ ! -f ${LIGHTDM_CONF_FILE}.sav ]; then
 
 cat << EOF | sudo tee ${LIGHTDM_CONF_FILE} >/dev/null
 [SeatDefaults]
-autologin-user=pirate
+autologin-user=ericn
 autologin-user-timeout=0
 EOF
 
